@@ -1,0 +1,17 @@
+services:
+  - name: bypass-page
+    git:
+      repository: blandk77/bp
+      branch: main
+    build:
+      type: python
+      image: python:3.9-slim-buster
+      run:
+        - pip install -r requirements.txt
+        - python main.py
+    ports:
+      - port: 8080
+        protocol: http
+    routes:
+      - path: /
+        port: 8080
