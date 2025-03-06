@@ -5,36 +5,39 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-  }
+    font-size: 1.2em; /* Increased base font size */
+}
 
-  .container {
+.container {
     width: 80%;
     margin: auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+}
 
-  h1, h2, h3 {
+h1, h2, h3 {
     color: #3498db;
-  }
+}
 
-  img {
+img {
     width: 100%;
     height: auto;
     border-radius: 5px;
     margin-bottom: 15px;
-  }
+}
 
-  #timer {
+#timer {
     font-size: 1.5em;
     color: #e74c3c;
     margin-bottom: 20px;
     text-align: center;
-  }
+}
 
-  #redirectButton, #additionalButton, #finalLinkButton {
+#redirectButton,
+#additionalButton,
+#finalLinkButton {
     display: none;
     background-color: #27ae60;
     color: white;
@@ -45,27 +48,30 @@ body {
     margin-top: 20px;
     cursor: pointer;
     border: none;
-    display: block; /* Ensure buttons are block-level */
-    margin: 20px auto; /* Center buttons */
-    width: fit-content; /* Adjust width to content */
-  }
+    display: block;
+    /* Ensure buttons are block-level */
+    margin: 20px auto;
+    /* Center buttons */
+    width: fit-content;
+    /* Adjust width to content */
+}
 
-  #scrollMessage {
+#scrollMessage {
     display: none;
     font-size: 1.2em;
     color: #e74c3c;
     text-align: center;
     margin-bottom: 20px;
-  }
+}
 
-  #generatingMessage {
+#generatingMessage {
     display: none;
     font-size: 1.2em;
     text-align: center;
     margin-bottom: 20px;
-  }
+}
 
-  .end-button-container {
+.end-button-container {
     text-align: center;
     margin-top: 30px;
-    }
+}
